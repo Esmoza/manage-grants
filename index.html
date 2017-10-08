@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<style>
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+.aplikim {
+    border: 0px solid #a1a1a1;
+    padding: 90px 200px; 
+    background: #dddddd;
+    width: 300px;}
+    
+
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #4876FF;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}
+</style>
+
+
+
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Menaxhimi i granteve</title>
+    <title>Subvencionet </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+        <link href="css/agency.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+<<<<<<< HEAD
+        <!--<img class="img-logo navbar-brand js-scroll-trigger other-color" src="img/Ferizaj.jpg" alt=""> -->
+        <a class="navbar-brand js-scroll-trigger other-color"  href="#page-top">KOMUNA E FERIZAJT</a>
+=======
+        <a style="font-size:13px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: black ;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase; "
+     class="navbar-brand js-scroll-trigger" href="#page-top">KOMUNA E FERIZAJT</a>
+>>>>>>> de1f5676999662eb9c1dd26a5648a62592053d7f
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+<<<<<<< HEAD
+              <a class="nav-link js-scroll-trigger other-hover-color" href="#services">BALLINA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger other-hover-color" href="#portfolio">KALENDARI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger other-hover-color" href="#about">LEGJISLACIONI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger other-hover-color" href="TestPDF.pdf" target="_blank">NDIHMA</a>
+              <!--<object data="moza.pdf" type="application/pdf" width=100% height="100%"> 
+  <p>eeee</p>
+</object>-->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger other-hover-color" href="#contact">KONTAKTI</a>
+=======
+              <a class="nav-link js-scroll-trigger" href="#services">Ballina</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Kalendari</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Legjislacioni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Ndihma </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Kontakti</a>
+             
+>>>>>>> de1f5676999662eb9c1dd26a5648a62592053d7f
+            </li>
+            <!--<div class="regjistrimi">
+          	<li class="nav-item">
+          	<a class="nav-link js-scroll-trigger other-hover-color"  target="_blank">Regjistrimi</a></li>
+          	<li class="nav-item">
+          	<a class="nav-link js-scroll-trigger other-hover-color" target="_blank">Kyçja</a></li> 
+          	</div>-->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+
+      <div class="container">
+<<<<<<< HEAD
+        <div class="intro-text" style="text-align: left;padding-top: 250px;">
+          <div class="introo"><h3 style="color: #fff;font-family: Montserrat;font-size: 28px;line-height:23px;font-size: 34px;">MIRËSEVINI NË SISTEMIN E 
+          MENAXHIMIT<br><br> TË GRANTEVE</h3> </div>
+          <div class="intro-heading"></div>
+         <!--<a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a> -->
+=======
+
+        <div class="intro-text">
+
+
+        
+
+
+          <div 
+           class="intro-lead-in">MIRËSEVINI NË SISTEMIN E MENAXHIMIT TË GRANTEVE</div>
+          
+
+>>>>>>> de1f5676999662eb9c1dd26a5648a62592053d7f
+        </div>
+      </div>
+    </header>
+
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
+      
+        <div class="row">
+<<<<<<< HEAD
+          <div class="col-lg-12">
+           
+           <!-- <h3 class="section-subheading text-muted">Nuk ka asnjë thirrje për aplikim!</h3> -->
+           
+          <div class ="aplikim container" style="padding: 40px">
+          <h6>Thirrje për projekte në sektorin e Kultures</h6>
+          	<p>Drejtoria për Kulturë në Komunën e Ferizjt duke e mbështetur nëVendimin për Kriteret dhe procedurën e ndarjes së subvencioneve nr. 01-091-1922 të dt.12.10.2017 ,bën thirrje për aplikim me projekt propozime për KRIJIMIN E VEPRËR SË RE në fushën e Arteve vizuale .Vepra mund të jetë pikturë,skulpturë,grafikë.</p> 
+
+          	<br>
+            <div class="row">
+            <div class="col-md-6">
+          	<a style="color:#000" href=" "><i class="fa fa-paperclip" aria-hidden="true"></i>Thirrja per Krijimin e vepres se re 2017.docx</a>
+          </div>
+          <div class="col-md-6" style="text-align: right;">
+            <button class="btn btn-primary btn-lg" style="background-color: #404144;border-color:#404144;">APLIKO</button>
+=======
+          <div class="col-lg-12 text-center">
+
+            <h2 class="section-heading">Ballina</h2>
+
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading"></h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+>>>>>>> de1f5676999662eb9c1dd26a5648a62592053d7f
+          </div>
+          </div>
+          </div>
+          <br><br>
+          <div class ="aplikim container" style="padding:40px;">
+          <h6>THIRRJE PER PROJEKTE RINORE</h6>
+          		  <p>Komuna e Ferizajt fton të gjitha OJQ-të të cilat implementojnë projekte rionre që të aplikojnë per financim. Projetet duhet të jenë në përputhje me politkat programore te Sektorit të Rinisë,të cilat janë:</p>
+          		<ol>
+          			<li>Promovimi i Vullnetarizmit</li>
+          			<li>Integrimi i grupeve rinore dhe atyre të margjinalizuara</li>
+
+
+          		</ol>
+          		<br>
+          		<div class="row">
+            <div class="col-md-6">
+            <a style="color:#000" href=" "><i class="fa fa-paperclip" aria-hidden="true"></i>Thirrja per Krijimin e vepres se re 2017.docx</a>
+          </div>
+          <div class="col-md-6" style="text-align: right;">
+            <button class="btn btn-primary btn-lg" style="background-color: #404144;border-color:#404144;">APLIKO</button>
+          </div>
+          </div>
+          	
+          </div>
+          </div>
+        </div>
+        
+      </div>s
+    </section>
+ <!-- Portfolio Grid -->
+    <section class="bg-light" id="portfolio">
+      <div class="container"> 
+          <div class="col-lg-12 text-center">
+<<<<<<< HEAD
+            <h6 class="section-heading">Kalendari Kulturor i aktiviteteve në Komunën e Ferizajt</h6>
+           
+<hr>
+<p>Të gjitha aktivitetet kulturore të cilat do të organizohen në Ferizaj nga Komuna e Ferizajt institucionet vartëse të saj dhe institucionet tjera të Ferizajt mund t'i gjeni në këtë faqe sipas muajve.</p>
+          </div>
+        </div>
+
+
+
+<div class="month">      
+  <ul>
+    <li class="prev">&#10094;</li>
+    <li class="next">&#10095;</li>
+    <li>
+      Nentor<br>
+      <span style="font-size:18px">2017</span>
+    </li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Hen</li>
+  <li>Mar</li>
+  <li>Mer</li>
+  <li>Enj</li>
+  <li>Pr</li>
+  <li>Sht</li>
+  <li>Die</li>
+</ul>
+
+<ul class="days">  
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li><span class="active">10</span></li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li>31</li>
+</ul>
+       
+    </section>
+=======
+        <h2 class="section-heading">Kalendari i aktiviteteve në Komunën e Ferizajit</h2>
+
+            <h3 class="section-subheading text-muted">Të gjitha aktivitetet kulturore të cilat do të organizohen në Ferizaj nga Komuna e Ferizajit, institucionet vartëse të saj dhe institucionet tjera të Ferizajit mund t'i gjeni në këtë faqe sipas muajve.</h3>
+
+       <!--NAVBAR--> 
+       <nav class="navbar navbar-dafault navbar-fixed-top"role="navigation" id="nav">...</nav>
+       <--END NAVBAR-->
+        <!--<div class="container body-content">-->
+          <div class="container-fluid" id="banner-container">...</div>
+          <!--Modal-->
+          <div class="modal fade" id="content-modal" role="dialog"></div>
+          <div class="container">...</div>
+<br>
+<br>
+<footer>...</footer>
+<!--</div>-->
+<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"></script>
+<script>...</script>
+<script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/bootstrap.min.js"></script>
+<script>...</script>
+<script src="/js/site.min.js?v=4YtIaePNzexGu4QQcABZ3hmCTZ5PpZ6UoIpVvTVV2ww"></script>
+<script ></script>
+<script>...</script>
+<script src="/lib/nprogress/nprogress.js"></script>
+<script type="text/javascript" src="/lib/toastr/toastr.js"></script>
+<script>...</script>
+<script type="text/javascript">...</script>
+<script>...</script>
+<script>
+  function myFunction() {
+    Window.print();
+    }
+  </script>
+  <style type>...</style>
+  
+
+
+ 
+>>>>>>> de1f5676999662eb9c1dd26a5648a62592053d7f
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+<<<<<<< HEAD
+        <div class="col-md-12 text-center">
+        	 <h2 class="section-heading">LEGJISLACIONI</h2>
+=======
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Legjislacioni</h2>
+>>>>>>> de1f5676999662eb9c1dd26a5648a62592053d7f
+            <h3 class="section-subheading text-muted">Lista e ligjeve, rregulloreve dhe udhëzimeve administrative për Sektorin e Kulturës, Rinisë dhe Sportit</h3>
+            <p>
+            	
+            </p>
+        </div>
+          <div class="col-lg-12">
+           
+            <ul>
+            	<li class="">Vendimi për kriteret dhe procedurën e ndarjes së subvencioneve në Komunën e Ferizajt</li>
+            	<hr>
+            	<li class="">Ligji për sponzorizime në fushën e kulturës rinisë dhe sportit</li>
+            	<hr>
+            	<li class="">Ligji për të drejtat e Autorit dhe të drejtat e përafërta</li>
+            	<li class="">Ligji për ndryshimin dhe plotësimin e ligjit nr.04/L-065 për të drejtat e autorit dhe të drejtat e përafërta</li>
+                 <li class="">Rregullore për ndërmjetësim të kontesteve në fushën e të drejtës së autorit dhe të drejtave të përafërta</li>
+                 <hr>
+                 <li class="">Ligji për Veprimtarinë Botuese dhe Librin</li>
+                 <li class="">Rregullore për licencimin dhe regjistrimin e Botuesve në Kosovë</li>
+                 <hr>
+                 <li class="">Ligji për Bibliotekat</li>
+                 <li class="">Rregullore për kushtet dhe kriteret e themelimit dhe funksionimit të bibliotekave</li>
+                 <li class="">Rregullore për ruajtjen dhe mbrojtjen e materialeve bibliotekare</li>
+
+            </ul>           
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <!--<section class="bg-light" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Ndihma</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+              <h4>Kay Garland</h4>
+              <p class="text-muted">Lead Designer</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
+              <h4>Larry Parker</h4>
+              <p class="text-muted">Lead Marketer</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
+              <h4>Diana Pertersen</h4>
+              <p class="text-muted">Lead Developer</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Clients -->
+    <!--<section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <a href="#">
+              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+<<<<<<< HEAD
+            <h2 class="section-heading">KONTAKTI</h2>
+            <h3 class="section-subheading text-muted">KOMUNA E FERIZAJT | DREJTORIA E KULTURES</h3>
+=======
+            <h2 class="section-heading">Kontakti</h2>
+            <h3 class="section-subheading text-muted"> Ndjehuni te lire te na kontaktoni!</h3>
+>>>>>>> de1f5676999662eb9c1dd26a5648a62592053d7f
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form id="contactForm" name="sentMessage" novalidate>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+<<<<<<< HEAD
+                    <input class="form-control" id="name" type="text" placeholder="Emri *" required data-validation-required-message="Please enter your name.">
+=======
+                    <input class="form-control" id="name" type="text" placeholder="Emri *" required data-validation-required-message="Ju lutem shenoni emrin tuaj.">
+>>>>>>> de1f5676999662eb9c1dd26a5648a62592053d7f
+                    <p class="help-block text-danger"></p>
+                  </div> 
+
+                  <div class="form-group">
+<<<<<<< HEAD
+                    <input class="form-control" id="email" type="email" placeholder="E-mail *" required data-validation-required-message="Please enter your email address.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="phone" type="tel" placeholder="Nr. telefonit *" required data-validation-required-message="Please enter your phone number.">
+=======
+
+                    <input class="form-control" id="email" type="email" placeholder="E-mail *" required data-validation-required-message="Ju lutem shenoni email adresen tuaj.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+
+                    <input class="form-control" id="phone" type="tel" placeholder="Numri i telefonit*" required data-validation-required-message="Ju lutem shenoni numrin tuaj te telefonit.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <!--shtesa-->
+                   <div class="form-group">
+                    <input class="form-control" id="name" type="text" placeholder="Adresa *" required data-validation-required-message="Ju lutem shenoni adresen tuaj.">
+>>>>>>> de1f5676999662eb9c1dd26a5648a62592053d7f
+                    <p class="help-block text-danger"></p>
+                  </div>
+
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+<<<<<<< HEAD
+                    <textarea class="form-control" id="message" placeholder="Mesazhi *" required data-validation-required-message="Please enter a message."></textarea>
+=======
+                    <textarea class="form-control" id="message" placeholder="Mesazhi juaj *" required data-validation-required-message="Ju lutem shenoni mesazhin tuaj."></textarea>
+
+>>>>>>> de1f5676999662eb9c1dd26a5648a62592053d7f
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <span style="margin-left: 10px;font-size: 15px; color:white ;"> Numri i telefonit: 038200 46049
+                   <br></span> 
+
+                
+                  <span style="margin-left: 10px;font-size: 15px; color:white;">Adresa: Rr.Latif Hasani p.n 70000 Ferizaj
+</span>
+                  <br>  
+                  <a style="margin-left:10px; font-size:15px; color:white ;" href="http://kk.rks-gov.net/ferizaj/" target="_blank">kk.rks-gov.net/ferizaj</a>
+                  
+
+
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+<<<<<<< HEAD
+                  <button id="sendMessageButton" class="btn btn-xl" type="submit">DERGO</button>
+=======
+                  <br>
+                  <br>
+                  <button id="sendMessageButton" class="btn btn-xl" type="submit">Dergo </button>
+                  
+>>>>>>> de1f5676999662eb9c1dd26a5648a62592053d7f
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+              
+              </li>
+              <li class="list-inline-item">
+                <br>
+                <a href="https://www.facebook.com/pg/officialKomunaFerizaj/about/?ref=page_internal">
+                  <i style= "color: white;
+                   background-color:blue;" class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="#"></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"></a>
+                <a style="color:black;" href="#">Komuna e Ferizajt- Sistemi i subvencioneve</a>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Threads</li>
+                    <li>Category: Illustration</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Explore</li>
+                    <li>Category: Graphic Design</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Finish</li>
+                    <li>Category: Identity</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Lines</li>
+                    <li>Category: Branding</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Southwest</li>
+                    <li>Category: Website Design</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Project Name</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2017</li>
+                    <li>Client: Window</li>
+                    <li>Category: Photography</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+  </body>
+
+</html>
